@@ -1,0 +1,279 @@
+.background{
+    background-color: chocolate;
+    padding-bottom: 1em;
+    font-family: Times New Roman;
+    padding-top: 1em;
+}
+
+
+.body{
+    background-color: rgb(72, 62, 102);
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.header2 h1{
+    text-align: center;
+    color: orange;
+}
+
+
+/* -----------------------flex container---------------------- */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* ----------------------HEADER------------------------------- */
+
+
+.BTClogo{
+    display: block;
+    width: 20em;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BTClogo2{
+    margin-top: 2em;
+    margin-left: 5em;
+    width: 100%;
+    max-width: 30em;
+    min-width: 15em;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+.Container{
+    float: inline-start;
+    background-color:rgba(134, 134, 125, 0.657);
+    border-radius: 8px;
+    margin-top: 2em;
+    padding: 1em;
+    font-family: Lucida, sans-serif ;
+    font-weight: bold;
+    margin-left: 17em;
+}
+
+
+.App3{
+    font-size: 1rem;
+    margin:1em; 
+    color:rgb(255, 253, 149);
+}
+
+#satPrice{
+    font-size: 1rem;
+    margin:1em; 
+    color:rgb(255, 253, 149);
+}
+
+.sat-container div{
+    color: rgb(251, 255, 0);
+    font-size: 1rem;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+
+
+/* ---------------------------converter Boxes------------------------ */
+
+.conversion-boxes{
+    display: block;
+    float:left;
+    width: 20em;
+    padding-top: 2em;
+    padding-left: 6em;
+    text-align: center;
+    color: rgb(85, 206, 5);
+    font-size: 1em;
+} 
+
+.conversion-boxes form input{
+    font-size: 1em;
+    font-weight: bold;
+    color:red
+} 
+
+
+.conversion-boxes [type="button"]{
+    justify-content:space-evenly;
+    border-radius: 5px;
+    border-color: rgb(85, 206, 5);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:red;
+    transition: 0.5s;
+} 
+.conversion-boxes [type="button"]:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    border-color: rgb(8, 5, 206);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(0, 4, 255)
+} 
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------Text---------------------------------------- */
+
+.BTC-information{
+    display: inline-block;
+    margin-top: 1em;
+    color:rgb(255, 226, 205);
+    margin: 6em;
+    font-size: 1.2em;
+}
+
+.footer0{
+    background-color: indigo;
+}
+
+
+.footer{
+    border-radius: 10px;
+    padding:1em ;
+    text-align: center;
+    color: rgb(255, 247, 137);
+    font-size: 1.1em;
+}
+
+/* ----///////////////////////---responsive----///////////////////////////////----- */
+/* ----///////////////////////---responsive----///////////////////////////////----- */
+/* ----///////////////////////---responsive----///////////////////////////////----- */
+/* ----///////////////////////---responsive----///////////////////////////////----- */
+
+
+@media only screen and (max-width: 500px){
+
+
+    .body{
+        background-color: rgb(72, 62, 102);
+        border-radius: 10px;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .header2 h1{
+        text-align: center;
+        color: orange;
+      
+    }
+
+/* ------------------------------Text---------------------------------------- */
+
+.BTC-information{
+    color:chocolate;
+    display: inline-block;
+    margin:0.7em; 
+    font-size: 1.2rem;
+}
+
+/* ----------------------HEADER------------------------------- */
+
+
+    .BTClogo{
+        
+        display: block;
+        width: 12em;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+ /* ---------------------------conv boxes---------------------------------------    */
+
+ .conversion-boxes{
+    position:relative;
+    color: rgb(255, 0, 0);
+    font-size: 0.6em;
+} 
+
+
+.conversion-boxes [name="conversor5" ], [name="conversor6"] {
+    color: rgb(255, 0, 212);
+    font-size: 0.2;
+} 
+
+
+
+
+.conversion-boxes form input{
+    font-size: 1.6em;
+    font-weight: bold;
+    color:red
+} 
+
+
+.conversion-boxes [type="button"]{
+    justify-content:space-evenly;
+    border-radius: 5px;
+    border-color: rgb(85, 206, 5);
+    font-size: 2em;
+    font-weight: bold;
+    color:red;
+    transition: 0.5s;
+} 
+.conversion-boxes [type="button"]:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    border-color: rgb(8, 5, 206);
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(0, 4, 255)
+} 
+
+
+
+}
+
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+
+@media only screen and (max-width: 1130px){
+
+    .BTClogo2{
+   
+        display: none;
+    
+       }
+
+       .Container{
+            float: inline-start;
+            background-color:rgba(134, 134, 125, 0.657);
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px;
+            margin-top: 2em;
+            font-family: Lucida, sans-serif ;
+            font-weight: bold;
+        }
+       
+}
+
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+/* ---------/////////////////////////////////////////////--------- */
+
