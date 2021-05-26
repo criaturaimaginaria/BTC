@@ -91,9 +91,9 @@
 .conversion-boxes{
     display: block;
     float:left;
-    width: 20em;
+    width: 19em;
     padding-top: 2em;
-    padding-left: 4em;
+    padding-left: 2em;
     text-align: center;
     color: rgb(37, 29, 0);
     font-size: 1em;
