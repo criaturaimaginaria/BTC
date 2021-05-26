@@ -1,22 +1,29 @@
 .background{
-    background-color: chocolate;
-    padding-bottom: 1em;
+    background-color: rgb(255, 174, 67);
+    padding-bottom: 1.2em;
     font-family: Times New Roman;
     padding-top: 1em;
 }
 
-
 .body{
-    background-color: rgb(72, 62, 102);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-left: 2em;
     margin-right: 2em;
 }
 
+.header2{
+    background-color: rgb(86, 87, 95);
+    
+}
+
 .header2 h1{
     text-align: center;
-    color: orange;
+    color: rgb(219, 219, 219);
 }
+
+
+
 
 
 /* -----------------------flex container---------------------- */
@@ -28,7 +35,6 @@
 }
 
 /* ----------------------HEADER------------------------------- */
-
 
 .BTClogo{
     display: block;
@@ -48,13 +54,11 @@
     border-radius: 10px;
 }
 
-
-
 /* --------------------------------------------------------------- */
 
 .Container{
     float: inline-start;
-    background-color:rgba(134, 134, 125, 0.657);
+    background-color:rgba(134, 134, 125, 0.63);
     border-radius: 8px;
     margin-top: 2em;
     padding: 1em;
@@ -63,27 +67,24 @@
     margin-left: 17em;
 }
 
-
 .App3{
     font-size: 1rem;
     margin:1em; 
-    color:rgb(255, 253, 149);
+    color:rgb(78, 78, 78);
 }
 
 #satPrice{
     font-size: 1rem;
     margin:1em; 
-    color:rgb(255, 253, 149);
+    color:rgb(78, 78, 78);
 }
 
 .sat-container div{
-    color: rgb(251, 255, 0);
+    color: rgb(78, 78, 78);
     font-size: 1rem;
     margin-left: 1em;
     margin-top: 0.5em;
 }
-
-
 
 /* ---------------------------converter Boxes------------------------ */
 
@@ -92,58 +93,58 @@
     float:left;
     width: 20em;
     padding-top: 2em;
-    padding-left: 6em;
+    padding-left: 4em;
     text-align: center;
-    color: rgb(85, 206, 5);
+    color: rgb(37, 29, 0);
     font-size: 1em;
+    font-weight: 900;
 } 
 
 .conversion-boxes form input{
     font-size: 1em;
-    font-weight: bold;
-    color:red
+    color:rgb(61, 47, 0);
+    font-weight: 900;
 } 
-
 
 .conversion-boxes [type="button"]{
     justify-content:space-evenly;
-    border-radius: 5px;
-    border-color: rgb(85, 206, 5);
+    border-radius: 10px;
+    border-color: rgb(141, 87, 0);
     font-size: 1.5em;
     font-weight: bold;
-    color:red;
-    transition: 0.5s;
+    color:rgb(93, 53, 8);
+    transition: 0.1s;
+    margin: 0.2em;
 } 
 .conversion-boxes [type="button"]:hover{
-    transition: 0.5s;
-    border-radius: 5px;
-    border-color: rgb(8, 5, 206);
+    transition: 0.1s;
+    border-radius: 12px;
+    border-color: rgb(190, 117, 0);
     font-size: 1.5em;
     font-weight: bold;
-    color:rgb(0, 4, 255)
+    color:rgb(179, 95, 0);
+    margin: 0.2em;
 } 
-
-
-
-/* ------------------------------------------------------------------------- */
-
 
 /* ------------------------------Text---------------------------------------- */
 
 .BTC-information{
     display: inline-block;
     margin-top: 1em;
-    color:rgb(255, 226, 205);
+    color:rgb(0, 0, 0);
     margin: 6em;
     font-size: 1.2em;
+    font-weight: 300;
 }
 
 .footer0{
-    background-color: indigo;
+    background-color: rgb(86, 87, 95);
+    
 }
 
 
 .footer{
+    
     border-radius: 10px;
     padding:1em ;
     text-align: center;
@@ -154,39 +155,38 @@
 /* ----///////////////////////---responsive----///////////////////////////////----- */
 /* ----///////////////////////---responsive----///////////////////////////////----- */
 /* ----///////////////////////---responsive----///////////////////////////////----- */
-/* ----///////////////////////---responsive----///////////////////////////////----- */
-
 
 @media only screen and (max-width: 500px){
 
 
+
     .body{
-        background-color: rgb(72, 62, 102);
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         margin-left: 1em;
         margin-right: 1em;
         margin-bottom: 2em;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        
+      
     }
     
     .header2 h1{
+        font-size: 1.5em;
         text-align: center;
-        color: orange;
+        color: rgb(219, 219, 219);
       
     }
 
 /* ------------------------------Text---------------------------------------- */
 
 .BTC-information{
-    color:chocolate;
+    color:rgb(0, 0, 0);
     display: inline-block;
     margin:0.7em; 
     font-size: 1.2rem;
 }
 
 /* ----------------------HEADER------------------------------- */
-
 
     .BTClogo{
         
@@ -197,47 +197,44 @@
         margin-right: auto;
     }
 
-
- /* ---------------------------conv boxes---------------------------------------    */
+ /* ---------------------------conv boxes--------------------    */
 
  .conversion-boxes{
     position:relative;
-    color: rgb(255, 0, 0);
+    color: rgb(37, 29, 0);
     font-size: 0.6em;
 } 
 
-
 .conversion-boxes [name="conversor5" ], [name="conversor6"] {
-    color: rgb(255, 0, 212);
+    color: rgb(37, 29, 0);
     font-size: 0.2;
 } 
-
-
 
 
 .conversion-boxes form input{
     font-size: 1.6em;
     font-weight: bold;
-    color:red
+    color:rgb(61, 47, 0);
 } 
-
 
 .conversion-boxes [type="button"]{
     justify-content:space-evenly;
-    border-radius: 5px;
-    border-color: rgb(85, 206, 5);
-    font-size: 2em;
+    border-radius: 12px;
+    border-color: rgb(141, 87, 0);
+    font-size: 1.5em;
     font-weight: bold;
-    color:red;
-    transition: 0.5s;
+    color:rgb(93, 53, 8);
+    transition: 0.1s;
+    margin: 0.2em;
 } 
 .conversion-boxes [type="button"]:hover{
     transition: 0.5s;
-    border-radius: 5px;
-    border-color: rgb(8, 5, 206);
-    font-size: 2em;
+    border-radius: 12px;
+    border-color: rgb(190, 117, 0);
+    font-size: 1.5em;
     font-weight: bold;
-    color:rgb(0, 4, 255)
+    color:rgb(179, 95, 0);
+    margin: 0.2em;
 } 
 
 
@@ -246,9 +243,7 @@
 
 /* ---------/////////////////////////////////////////////--------- */
 /* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
+
 
 @media only screen and (max-width: 1130px){
 
@@ -273,7 +268,5 @@
 
 /* ---------/////////////////////////////////////////////--------- */
 /* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
-/* ---------/////////////////////////////////////////////--------- */
+
 
